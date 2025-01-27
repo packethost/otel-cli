@@ -1,8 +1,8 @@
 module github.com/equinix-labs/otel-cli
 
-go 1.21
+go 1.22
 
-toolchain go1.22.4
+toolchain go1.23.5
 
 require (
 	github.com/google/go-cmp v0.6.0
@@ -11,9 +11,9 @@ require (
 	go.opentelemetry.io/otel v1.27.0
 	go.opentelemetry.io/otel/sdk v1.27.0
 	go.opentelemetry.io/proto/otlp v1.1.0
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240610135401-a8a62080eff3
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250127172529-29210b9bc287
 	google.golang.org/grpc v1.64.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.4
 )
 
 require (
